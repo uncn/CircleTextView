@@ -33,10 +33,10 @@ dependencies {
 | circleColor | Color of center circle                 | Support color                                                     |
 | borderColor | Color of middle circle                 | Support color                                                     |
 | shadowColor | Color of outer shadow                  | Support color                                                     |
-| borderWidth | Thickness of middle circle             | Support float, default is 0.                                      |
-| shadowWidth | Thickness of outer shadow              | Support float, default is 0.                                      |
-| circleAlpha | Alpha of center circle                 | Support float, default is 1.                                      |
-| borderAlpha | Alpha of middle circle                 | Support float, default is 1.                                      |
+| borderWidth | Thickness of middle circle             | Support float, default value is 0.                                |
+| shadowWidth | Thickness of outer shadow              | Support float, default value is 0.                                |
+| circleAlpha | Alpha of center circle                 | Support float, default value is 1.                                |
+| borderAlpha | Alpha of middle circle                 | Support float, default value is 1.                                |
 
 ### License
 ```
