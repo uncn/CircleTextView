@@ -35,8 +35,8 @@ dependencies {
 | shadowColor | Color of outer shadow                  | Support color                                                     |
 | borderWidth | Thickness of middle circle             | Support float, default value is 0.                                |
 | shadowWidth | Thickness of outer shadow              | Support float, default value is 0.                                |
-| circleAlpha | Alpha of center circle                 | Support float, default value is 1.                                |
-| borderAlpha | Alpha of middle circle                 | Support float, default value is 1.                                |
+| circleAlpha | Alpha of center circle                 | Support float value from 0 to 1, default value is 1.              |
+| borderAlpha | Alpha of middle circle                 | Support float value from 0 to 1, default value is 1.              |
 
 ### License
 ```
