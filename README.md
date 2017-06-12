@@ -7,7 +7,7 @@ CircleTextView is an open source Android library that allows developers to easil
 ### Gradle
 ```groovy
 dependencies {
-    compile 'com.github.ShortStickBoy:Timer:V1.0.0'
+    compile 'com.github.ShortStickBoy:CircleTextView:V1.0.0'
 }
 ```
 
