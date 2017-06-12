@@ -2,9 +2,6 @@
 CircleTextView is an open source Android library that allows developers to easily create an circle TextView with colorful shadow.
 
 ### ScreenShot
-<!-- ![sample](./screenshot/Demo01.png) -->
-<!-- ![sample](./screenshot/Demo02.png) -->
-
 <a href="screenshot/Demo01.png"><img src="screenshot/Demo01.png"/></a> <a href="screenshot/Demo02.png"><img src="screenshot/Demo02.png"/></a>
 
 ### Gradle
@@ -33,15 +30,13 @@ dependencies {
 
 | Attribute   | Describe                               | Additional                                                        |
 | ----------- | -------------------------------------- | ----------------------------------------------------------------- |
-| borderWidth | Width of circle and cursor             | The greater the value, the greater the width of circle and cursor |
-| filledColor | Color of bottom disc                   | Support color                                                     |
-| circleColor | Color of middle circle                 | Support color                                                     |
-| cursorColor | Color of top cursor                    | Support color                                                     |
-| text        | Text to show in center of disc         | Support text and string reference                                 |
-| textColor   | Text Color                             | Support color                                                     |
-| textSize    | Text size                              | The larger the value, the larger the text                         |
-| duration    | Time to wait                           | The larger the value, the more time to wait                       |
-| startAngle  | The position where the curse to start  | Default value is 270                                              |
+| circleColor | Color of center circle                 | Support color                                                     |
+| borderColor | Color of middle circle                 | Support color                                                     |
+| shadowColor | Color of outer shadow                  | Support color                                                     |
+| borderWidth | Thickness of middle circle             | Support float, default is 0.                                      |
+| shadowWidth | Thickness of outer shadow              | Support float, default is 0.                                      |
+| circleAlpha | Alpha of center circle                 | Support float, default is 1.                                      |
+| borderAlpha | Alpha of middle circle                 | Support float, default is 1.                                      |
 
 ### License
 ```
