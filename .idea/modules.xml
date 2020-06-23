@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CircleTextView.iml" filepath="$PROJECT_DIR$/CircleTextView.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Library/Library.iml" filepath="$PROJECT_DIR$/Library/Library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Sample/Sample.iml" filepath="$PROJECT_DIR$/Sample/Sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CircleTextView.iml" filepath="$PROJECT_DIR$/.idea/CircleTextView.iml" group="CircleTextView" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Library/Library.iml" filepath="$PROJECT_DIR$/.idea/modules/Library/Library.iml" group="CircleTextView/Library" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sample/Sample.iml" filepath="$PROJECT_DIR$/.idea/modules/Sample/Sample.iml" group="CircleTextView/Sample" />
     </modules>
   </component>
 </project>

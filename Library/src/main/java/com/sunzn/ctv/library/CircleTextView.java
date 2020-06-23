@@ -99,11 +99,7 @@ public class CircleTextView extends AppCompatTextView {
     private void setBackgroundCompat(int w, int h) {
         Bitmap bitmap = createShadowBitmap(w, h, 360, mShadowWidth, mShadowColor);
         BitmapDrawable drawable = new BitmapDrawable(getResources(), bitmap);
-        if (Build.VERSION.SDK_INT <= Build.VERSION_CODES.JELLY_BEAN) {
-            setBackgroundDrawable(drawable);
-        } else {
-            setBackground(drawable);
-        }
+        setBackground(drawable);
     }
 
     private Bitmap createShadowBitmap(int shadowWidth, int shadowHeight, float cornerRadius, float shadowRadius, int shadowColor) {
