@@ -2,7 +2,8 @@ package com.sunzn.ctv.sample;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -58,6 +59,15 @@ public class GroupActivity extends AppCompatActivity {
                 convertView.setTag(holder);
             } else {
                 holder = (ViewHolder) convertView.getTag();
+            }
+
+            switch (position % 2) {
+                case 0:
+                    holder.icon.setColor(ContextCompat.getColor(parent.getContext(), R.color.colorAccent));
+                    break;
+                case 1:
+                    holder.icon.setColor(ContextCompat.getColor(parent.getContext(), R.color.colorPrimary));
+                    break;
             }
 
             holder.icon.setText(String.valueOf(position));

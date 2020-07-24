@@ -8,8 +8,8 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.RectF;
 import android.graphics.drawable.BitmapDrawable;
-import android.os.Build;
-import android.support.v7.widget.AppCompatTextView;
+import androidx.annotation.ColorInt;
+import androidx.appcompat.widget.AppCompatTextView;
 import android.util.AttributeSet;
 
 /**
@@ -68,7 +68,7 @@ public class CircleTextView extends AppCompatTextView {
         int height = MeasureSpec.getSize(heightMeasureSpec);
         int size = Math.min(width, height);
         setMeasuredDimension(size, size);
-        mCircleRadius = size / 2;
+        mCircleRadius = size >> 1;
     }
 
     @Override
@@ -94,6 +94,13 @@ public class CircleTextView extends AppCompatTextView {
         canvas.drawCircle(mCircleRadius, mCircleRadius, mCircleRadius - mShadowWidth - mBorderWidth, mPaint);
 
         super.onDraw(canvas);
+    }
+
+    public void setColor(@ColorInt int color) {
+        mCircleColor = color;
+        mBorderColor = color;
+        mShadowColor = color;
+        invalidate();
     }
 
     private void setBackgroundCompat(int w, int h) {
