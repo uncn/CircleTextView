@@ -19,7 +19,27 @@
                 android:left="1dp"
                 android:right="1dp"
                 android:top="1dp" />
+            <solid android:color="#05FF4444" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <padding
+                android:bottom="1dp"
+                android:left="1dp"
+                android:right="1dp"
+                android:top="1dp" />
             <solid android:color="#10FF4444" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <padding
+                android:bottom="1dp"
+                android:left="1dp"
+                android:right="1dp"
+                android:top="1dp" />
+            <solid android:color="#15FF4444" />
         </shape>
     </item>
     <item>
@@ -39,6 +59,16 @@
                 android:left="1dp"
                 android:right="1dp"
                 android:top="1dp" />
+            <solid android:color="#25FF4444" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <padding
+                android:bottom="1dp"
+                android:left="1dp"
+                android:right="1dp"
+                android:top="1dp" />
             <solid android:color="#30FF4444" />
         </shape>
     </item>
@@ -49,7 +79,27 @@
                 android:left="1dp"
                 android:right="1dp"
                 android:top="1dp" />
+            <solid android:color="#35FF4444" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <padding
+                android:bottom="1dp"
+                android:left="1dp"
+                android:right="1dp"
+                android:top="1dp" />
             <solid android:color="#40FF4444" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <padding
+                android:bottom="1dp"
+                android:left="1dp"
+                android:right="1dp"
+                android:top="1dp" />
+            <solid android:color="#45FF4444" />
         </shape>
     </item>
     <item>

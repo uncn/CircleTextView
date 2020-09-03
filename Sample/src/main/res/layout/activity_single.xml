@@ -20,12 +20,12 @@
             android:text="中"
             android:textColor="@android:color/white"
             android:textSize="16sp"
-            app:borderAlpha="0.5"
-            app:borderColor="@android:color/holo_blue_dark"
-            app:borderWidth="0"
-            app:circleColor="@android:color/holo_red_light"
-            app:shadowColor="@android:color/holo_red_light"
-            app:shadowWidth="15" />
+            app:ctv_borderAlpha="0.5"
+            app:ctv_borderColor="@android:color/holo_blue_dark"
+            app:ctv_borderWidth="0"
+            app:ctv_circleColor="@android:color/holo_red_light"
+            app:ctv_shadowColor="@android:color/holo_red_light"
+            app:ctv_shadowWidth="15" />
 
         <com.sunzn.ctv.library.CircleTextView
             android:layout_width="50dp"
@@ -34,12 +34,12 @@
             android:text="C"
             android:textColor="@android:color/white"
             android:textSize="16sp"
-            app:borderAlpha="0.5"
-            app:borderColor="@android:color/holo_green_light"
-            app:borderWidth="0"
-            app:circleColor="@android:color/holo_green_light"
-            app:shadowColor="@android:color/holo_green_light"
-            app:shadowWidth="15" />
+            app:ctv_borderAlpha="0.5"
+            app:ctv_borderColor="@android:color/holo_green_light"
+            app:ctv_borderWidth="0"
+            app:ctv_circleColor="@android:color/holo_green_light"
+            app:ctv_shadowColor="@android:color/holo_green_light"
+            app:ctv_shadowWidth="15" />
 
         <com.sunzn.ctv.library.CircleTextView
             android:layout_width="50dp"
@@ -48,12 +48,12 @@
             android:text="で"
             android:textColor="@android:color/white"
             android:textSize="16sp"
-            app:borderAlpha="0.5"
-            app:borderColor="@android:color/holo_blue_dark"
-            app:borderWidth="0"
-            app:circleColor="@android:color/holo_blue_light"
-            app:shadowColor="@android:color/holo_blue_light"
-            app:shadowWidth="15" />
+            app:ctv_borderAlpha="0.5"
+            app:ctv_borderColor="@android:color/holo_blue_dark"
+            app:ctv_borderWidth="0"
+            app:ctv_circleColor="@android:color/holo_blue_light"
+            app:ctv_shadowColor="@android:color/holo_blue_light"
+            app:ctv_shadowWidth="15" />
 
         <com.sunzn.ctv.library.CircleTextView
             android:layout_width="50dp"
@@ -62,12 +62,12 @@
             android:text="에"
             android:textColor="@android:color/white"
             android:textSize="16sp"
-            app:borderAlpha="0.5"
-            app:borderColor="@android:color/holo_orange_light"
-            app:borderWidth="0"
-            app:circleColor="@android:color/holo_orange_light"
-            app:shadowColor="@android:color/holo_orange_light"
-            app:shadowWidth="15" />
+            app:ctv_borderAlpha="0.5"
+            app:ctv_borderColor="@android:color/holo_orange_light"
+            app:ctv_borderWidth="0"
+            app:ctv_circleColor="@android:color/holo_orange_light"
+            app:ctv_shadowColor="@android:color/holo_orange_light"
+            app:ctv_shadowWidth="15" />
 
         <com.sunzn.ctv.library.CircleTextView
             android:layout_width="50dp"
@@ -76,12 +76,12 @@
             android:text="1"
             android:textColor="@android:color/white"
             android:textSize="16sp"
-            app:borderAlpha="0.5"
-            app:borderColor="@android:color/holo_purple"
-            app:borderWidth="0"
-            app:circleColor="@android:color/holo_purple"
-            app:shadowColor="@android:color/holo_purple"
-            app:shadowWidth="15" />
+            app:ctv_borderAlpha="0.5"
+            app:ctv_borderColor="@android:color/holo_purple"
+            app:ctv_borderWidth="0"
+            app:ctv_circleColor="@android:color/holo_purple"
+            app:ctv_shadowColor="@android:color/holo_purple"
+            app:ctv_shadowWidth="15" />
 
         <TextView
             android:layout_width="50dp"

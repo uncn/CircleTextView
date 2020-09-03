@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-
     <declare-styleable name="CircleTextView">
 
-        <attr name="circleColor" format="color" />
-        <attr name="borderColor" format="color" />
-        <attr name="shadowColor" format="color" />
-        <attr name="borderWidth" format="float" />
-        <attr name="shadowWidth" format="float" />
-        <attr name="circleAlpha" format="float" />
-        <attr name="borderAlpha" format="float" />
+        <attr name="ctv_circleColor" format="color" />
+        <attr name="ctv_borderColor" format="color" />
+        <attr name="ctv_shadowColor" format="color" />
+        <attr name="ctv_borderWidth" format="float" />
+        <attr name="ctv_shadowWidth" format="float" />
+        <attr name="ctv_circleAlpha" format="float" />
+        <attr name="ctv_borderAlpha" format="float" />
 
     </declare-styleable>
 

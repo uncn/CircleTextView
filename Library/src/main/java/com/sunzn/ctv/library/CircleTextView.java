@@ -8,9 +8,10 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.RectF;
 import android.graphics.drawable.BitmapDrawable;
+import android.util.AttributeSet;
+
 import androidx.annotation.ColorInt;
 import androidx.appcompat.widget.AppCompatTextView;
-import android.util.AttributeSet;
 
 /**
  * Created by sunzn on 2017/6/9.
@@ -46,14 +47,14 @@ public class CircleTextView extends AppCompatTextView {
     private void init(Context context, AttributeSet attrs, int defStyleAttr) {
         TypedArray attributes = context.obtainStyledAttributes(attrs, R.styleable.CircleTextView, defStyleAttr, 0);
 
-        mCircleColor = attributes.getColor(R.styleable.CircleTextView_circleColor, mCircleColor);
-        mBorderColor = attributes.getColor(R.styleable.CircleTextView_borderColor, mBorderColor);
-        mShadowColor = attributes.getColor(R.styleable.CircleTextView_shadowColor, mShadowColor);
+        mCircleColor = attributes.getColor(R.styleable.CircleTextView_ctv_circleColor, mCircleColor);
+        mBorderColor = attributes.getColor(R.styleable.CircleTextView_ctv_borderColor, mBorderColor);
+        mShadowColor = attributes.getColor(R.styleable.CircleTextView_ctv_shadowColor, mShadowColor);
 
-        mBorderWidth = attributes.getFloat(R.styleable.CircleTextView_borderWidth, 0);
-        mShadowWidth = attributes.getFloat(R.styleable.CircleTextView_shadowWidth, 0);
-        mCircleAlpha = attributes.getFloat(R.styleable.CircleTextView_circleAlpha, 1);
-        mBorderAlpha = attributes.getFloat(R.styleable.CircleTextView_borderAlpha, 1);
+        mBorderWidth = attributes.getFloat(R.styleable.CircleTextView_ctv_borderWidth, 0);
+        mShadowWidth = attributes.getFloat(R.styleable.CircleTextView_ctv_shadowWidth, 0);
+        mCircleAlpha = attributes.getFloat(R.styleable.CircleTextView_ctv_circleAlpha, 1);
+        mBorderAlpha = attributes.getFloat(R.styleable.CircleTextView_ctv_borderAlpha, 1);
 
         mPaint = new Paint();
         mPaint.setAntiAlias(true);
